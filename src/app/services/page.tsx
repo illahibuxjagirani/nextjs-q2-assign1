@@ -3,8 +3,6 @@
 export default function ServicesPage(){
   return(
     <div className='relative z-10'>
-
-    
     <div
     className={`inset-0 absolute bg-[url('/img3.jpg')] bg-cover bg-center bg-no-repeat h-[calc(100vh-70px)] opacity-50`}/>
 
