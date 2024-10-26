@@ -16,14 +16,14 @@ export default function Navbar(){
   >
     {/* left div */}
     <div>
-    <p className="text-xl italic text-blue-600 text-bold">ILLAHIBUX</p>
+    <p className="sm:text-xl text-xs italic text-blue-600 text-bold">ILLAHIBUX</p>
     </div>
 
     {/* right div */}
-    <div className="flex gap-1 sm:gap-4 md:text-xl">
+    <div className="flex gap-1 sm:gap-4 md:text-xl text-xs">
     {
       myList.map( (e, index) => 
-      (<Link href={e.href} key={index} className="bg-blue-600 text-white p-2 hover:bg-blue-700 rounded-md shadow-sm"> {e.name}</Link>)
+      (<Link href={e.href} key={index} className="bg-blue-600 text-white md:p-2 p-1 hover:bg-blue-700 rounded-md shadow-sm"> {e.name}</Link>)
       )
     }
     </div>
