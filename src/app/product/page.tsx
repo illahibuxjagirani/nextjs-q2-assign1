@@ -12,7 +12,7 @@ export default function ProductPage(){
 
      
 <h1 className='text-6xl font-bold text-red-500'>Product</h1>
-<p className='md:w-1/2 md:h-1/2 text-justify text-xl bg-red-100 rounded-lg shadow-green border p-4 shadow-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore error quasi vitae porro explicabo illo unde rem modi animi iure, laboriosam totam, itaque eaque sint officiis ut at nemo hic? Libero, praesentium assumenda. Assumenda vel harum ducimus ut porro eos reprehe.</p> 
+<p className='md:w-1/2 text-justify text-xl bg-red-100 rounded-lg shadow-green border p-4 shadow-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore error quasi vitae porro explicabo illo unde rem modi animi iure, laboriosam totam, itaque eaque sint officiis ut at nemo hic? Libero, praesentium assumenda. Assumenda vel harum ducimus ut porro eos reprehe.</p> 
 </div>
 
     </div>
